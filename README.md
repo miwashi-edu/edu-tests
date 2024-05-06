@@ -1,6 +1,8 @@
 # edu-tests
-[Jest](https://www.npmjs.com/package/jest-runner-groups)
+[Jest](https://jestjs.io/docs/getting-started)
 [Jest Runner Groups](https://www.npmjs.com/package/jest-runner-groups)
+[Jest Matchers](https://jestjs.io/docs/using-matchers)
+
 ## Prepare
 
 ```bash
