@@ -3,6 +3,7 @@
 [Jest Runner Groups](https://www.npmjs.com/package/jest-runner-groups)
 [Jest Matchers](https://jestjs.io/docs/using-matchers)
 [SuperTest](https://www.npmjs.com/package/supertest)
+[API Testing - consumer tests](https://medium.com/@iamfaisalkhatri/api-testing-using-supertest-ea37522fa329)
 
 ## Prepare
 
