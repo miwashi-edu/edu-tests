@@ -5,7 +5,7 @@
 ```bash
 cd ~
 cd ws
-mkdir edu-tests && edu-tests
+mkdir edu-tests && cd edu-tests
 npm init -y
 npm install jest supertest --save-dev
 mkdir __tests__
