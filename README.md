@@ -1,5 +1,6 @@
 # edu-tests
-
+[Jest](https://www.npmjs.com/package/jest-runner-groups)
+[Jest Runner Groups](https://www.npmjs.com/package/jest-runner-groups)
 ## Prepare
 
 ```bash
@@ -50,7 +51,7 @@ cd ws
 cd edu-tests
 cat > ./__tests__/component_tests.js << 'EOF'
 /**
- * @group unit
+ * @group component
  */
 
 describe('jest', () => {
@@ -71,7 +72,7 @@ cd ws
 cd edu-tests
 cat > ./__tests__/integration_tests.js << 'EOF'
 /**
- * @group unit
+ * @group integration
  */
 
 describe('jest', () => {
@@ -92,7 +93,7 @@ cd ws
 cd edu-tests
 cat > ./__tests__/consumer_tests.js << 'EOF'
 /**
- * @group unit
+ * @group consumer
  */
 
 describe('jest', () => {
