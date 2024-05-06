@@ -5,7 +5,7 @@
 ```bash
 cd ~
 cd ws
-mkdir consumer-oriented-tests && consumer-oriented-tests
+mkdir edu-tests && edu-tests
 npm init -y
 npm install jest supertest --save-dev
 mkdir __tests__
@@ -24,6 +24,9 @@ npm pkg set jest.runner="groups"
 ## ./__tests__/unit_tests.js
 
 ```bash
+cd ~
+cd ws
+mkdir edu-tests
 cat >> ./__tests__/unit_tests.js << 'EOF'
 /**
  * @group unit
