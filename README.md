@@ -26,7 +26,7 @@ npm pkg set jest.runner="groups"
 ```bash
 cd ~
 cd ws
-mkdir edu-tests
+cd edu-tests
 cat > ./__tests__/unit_tests.js << 'EOF'
 /**
  * @group unit
