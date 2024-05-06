@@ -2,6 +2,7 @@
 [Jest](https://jestjs.io/docs/getting-started)
 [Jest Runner Groups](https://www.npmjs.com/package/jest-runner-groups)
 [Jest Matchers](https://jestjs.io/docs/using-matchers)
+[SuperTest](https://www.npmjs.com/package/supertest)
 
 ## Prepare
 
@@ -22,6 +23,7 @@ npm pkg set scripts.test:component="jest --group=component"
 npm pkg set scripts.test:integration="jest --group=integration"
 npm pkg set scripts.test:consumer="jest --group=consumer"
 npm pkg set jest.runner="groups"
+mkdir src
 ```
 
 ## ./__tests__/unit_tests.js
