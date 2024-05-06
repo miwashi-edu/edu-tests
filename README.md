@@ -42,3 +42,66 @@ describe('jest', () => {
 EOF
 ```
 
+## ./__tests__/component_tests.js
+
+```bash
+cd ~
+cd ws
+cd edu-tests
+cat > ./__tests__/unit_tests.js << 'EOF'
+/**
+ * @group unit
+ */
+
+describe('jest', () => {
+  describe('unit test', () => {
+    it('should work', () => {
+      expect(true).toBe(true);
+    });
+  });
+});
+EOF
+```
+
+## ./__tests__/integration_tests.js
+
+```bash
+cd ~
+cd ws
+cd edu-tests
+cat > ./__tests__/integration_tests.js << 'EOF'
+/**
+ * @group unit
+ */
+
+describe('jest', () => {
+  describe('unit test', () => {
+    it('should work', () => {
+      expect(true).toBe(true);
+    });
+  });
+});
+EOF
+```
+
+## ./__tests__/consumer_tests.js
+
+```bash
+cd ~
+cd ws
+cd edu-tests
+cat > ./__tests__/consumer_tests.js << 'EOF'
+/**
+ * @group unit
+ */
+
+describe('jest', () => {
+  describe('unit test', () => {
+    it('should work', () => {
+      expect(true).toBe(true);
+    });
+  });
+});
+EOF
+```
+
