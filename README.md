@@ -48,7 +48,7 @@ EOF
 cd ~
 cd ws
 cd edu-tests
-cat > ./__tests__/unit_tests.js << 'EOF'
+cat > ./__tests__/component_tests.js << 'EOF'
 /**
  * @group unit
  */
