@@ -1,0 +1,29 @@
+{
+  "name": "edu-tests",
+  "version": "1.0.0",
+  "description": "[Jest](https://jestjs.io/docs/getting-started) [Jest Runner Groups](https://www.npmjs.com/package/jest-runner-groups) [Jest Matchers](https://jestjs.io/docs/using-matchers) [SuperTest](https://www.npmjs.com/package/supertest) [API Testing - consumer tests](https://medium.com/@iamfaisalkhatri/api-testing-using-supertest-ea37522fa329)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest  --group=-component --group=-integration --group=-consumer",
+    "test:component": "jest --group=component",
+    "test:integration": "jest --group=integration",
+    "test:consumer": "jest --group=consumer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-runner-groups": "^2.2.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "runner": "groups"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  }
+}

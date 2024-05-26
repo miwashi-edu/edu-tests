@@ -1,0 +1,24 @@
+openapi: 3.0.0
+info:
+  title: Server Operations API
+  version: 1.0.0
+  description: API to manage server operations
+servers:
+  - url: 'http://localhost:3000'
+tags:
+  - name: Operations
+    description: Server operations
+paths:
+  /operations/stop:
+    get:
+      summary: Stops the server
+      tags: [Operations]
+      responses:
+        '200':
+          description: Server is shutting down
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Server is shutting down...
+
