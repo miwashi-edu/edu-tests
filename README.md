@@ -10,7 +10,8 @@
 ```bash
 cd ~
 cd ws
-mkdir edu-tests && cd edu-tests
+git clone https://github.com/miwashi-edu/edu-tests.git
+cd edu-tests
 npm init -y
 npm install jest supertest --save-dev
 mkdir __tests__
@@ -25,6 +26,15 @@ npm pkg set scripts.test:integration="jest --group=integration"
 npm pkg set scripts.test:consumer="jest --group=consumer"
 npm pkg set jest.runner="groups"
 mkdir src
+```
+
+### Add fake-backend dependencies
+
+```bash
+npm install dotenv
+npm install express
+npm install swagger-jsdoc
+npm install swagger-ui-express
 ```
 
 ## ./__tests__/unit_tests.js
